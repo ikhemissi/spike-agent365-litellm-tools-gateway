@@ -1,0 +1,26 @@
+{
+  "composition": "spike",
+  "source": {
+    "commit": "7b4db226a8818aa31319928a13c5bbec271119f6",
+    "describe": "v0.1.0-25-g7b4db22",
+    "dirty": false
+  },
+  "generated_at": "2026-11-01T17:05:51+00:00",
+  "blocks": [
+    "azure-platform",
+    "foundry-model",
+    "postgres",
+    "litellm-gateway"
+  ],
+  "answers": {
+    "project_name": "spike-agent365-litellm-tools-gateway",
+    "title": "Governing LiteLLM MCP servers with Agent 365",
+    "question": "When a LiteLLM gateway is connected to the Agent 365 tools gateway, what is actually governed: which calls a block stops and how fast, at what granularity, how new or changed MCP servers are noticed, with which identity, which controls we have in Agent 365, and with which audit records?",
+    "time_box": "2 days",
+    "azure_stack": false,
+    "litellm_gateway": true,
+    "environment": "spike-agent365-litellm-tools-gateway",
+    "location": "francecentral",
+    "author": "Iheb Khemissi"
+  }
+}

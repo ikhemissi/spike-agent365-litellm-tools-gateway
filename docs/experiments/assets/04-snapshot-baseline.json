@@ -1,0 +1,36 @@
+{
+  "taken_at": "2026-11-02T13:28:52+00:00",
+  "servers": [
+    {
+      "server_name": "notes",
+      "server_id": "7948a6d3-0cda-4adf-8f96-ee05ff3a9a0b",
+      "allowed_tools": [],
+      "disallowed_tools": null,
+      "approval_status": "active",
+      "allow_all_keys": false
+    },
+    {
+      "server_name": "notes_readonly",
+      "server_id": "8c088653-0e82-46b0-8c75-bfa85bd5a7c8",
+      "allowed_tools": [
+        "list_notes"
+      ],
+      "disallowed_tools": null,
+      "approval_status": "active",
+      "allow_all_keys": false
+    }
+  ],
+  "teams": [
+    {
+      "team_alias": "spike",
+      "object_permission": {
+        "mcp_servers": [
+          "7948a6d3-0cda-4adf-8f96-ee05ff3a9a0b"
+        ],
+        "mcp_access_groups": [],
+        "mcp_tool_permissions": null,
+        "blocked_tools": []
+      }
+    }
+  ]
+}

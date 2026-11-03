@@ -1,0 +1,123 @@
+time,mcp_tools,mcp_call,rest_call
+13:31:23,notes-add_note notes-list_notes,ok,ok
+13:31:33,notes-add_note notes-list_notes,ok,ok
+13:31:44,notes-add_note notes-list_notes,ok,ok
+13:31:54,notes-add_note notes-list_notes,ok,ok
+13:32:05,notes-add_note notes-list_notes,ok,ok
+13:32:15,notes-add_note notes-list_notes,ok,ok
+13:32:26,notes-add_note notes-list_notes,ok,ok
+13:32:36,notes-add_note notes-list_notes,ok,ok
+13:32:47,notes-add_note notes-list_notes,ok,ok
+13:32:57,notes-add_note notes-list_notes,ok,ok
+13:33:08,notes-add_note notes-list_notes,ok,ok
+13:33:18,notes-add_note notes-list_notes,ok,ok
+13:33:28,notes-add_note notes-list_notes,ok,ok
+13:33:39,notes-add_note notes-list_notes,ok,ok
+13:33:49,notes-add_note notes-list_notes,ok,ok
+13:34:00,notes-add_note notes-list_notes,ok,ok
+13:34:10,notes-add_note notes-list_notes,ok,ok
+13:34:21,notes-add_note notes-list_notes,ok,ok
+13:34:31,notes-add_note notes-list_notes,ok,ok
+13:34:41,notes-add_note notes-list_notes,ok,ok
+13:34:52,notes-add_note notes-list_notes,ok,ok
+13:35:02,notes-add_note notes-list_notes,ok,ok
+13:35:13,notes-add_note notes-list_notes,ok,ok
+13:35:23,notes-add_note notes-list_notes,ok,ok
+13:35:34,notes-add_note notes-list_notes,ok,ok
+13:35:44,notes-add_note notes-list_notes,ok,ok
+13:35:55,notes-add_note notes-list_notes,ok,ok
+13:36:05,notes-add_note notes-list_notes,ok,ok
+13:36:15,notes-add_note notes-list_notes,ok,ok
+13:36:26,notes-add_note notes-list_notes,ok,ok
+13:36:36,notes-add_note notes-list_notes,ok,ok
+13:36:47,notes-add_note notes-list_notes,ok,ok
+13:36:57,notes-add_note notes-list_notes,ok,ok
+13:37:08,notes-add_note notes-list_notes,ok,ok
+13:37:18,notes-add_note notes-list_notes,ok,ok
+13:37:29,notes-add_note notes-list_notes,ok,ok
+13:37:39,notes-add_note notes-list_notes,ok,ok
+13:37:50,notes-add_note notes-list_notes,ok,ok
+13:38:00,notes-add_note notes-list_notes,ok,ok
+13:38:11,notes-add_note notes-list_notes,ok,ok
+13:38:21,notes-add_note notes-list_notes,ok,ok
+13:38:32,notes-add_note notes-list_notes,ok,ok
+13:38:42,notes-add_note notes-list_notes,ok,ok
+13:38:53,notes-add_note notes-list_notes,ok,ok
+13:39:03,notes-add_note notes-list_notes,ok,ok
+13:39:14,notes-add_note notes-list_notes,ok,ok
+13:39:24,notes-add_note notes-list_notes,ok,ok
+13:39:35,notes-add_note notes-list_notes,ok,ok
+13:39:45,notes-add_note notes-list_notes,ok,ok
+13:39:56,notes-add_note notes-list_notes,ok,ok
+13:40:06,notes-add_note notes-list_notes,ok,ok
+13:40:16,notes-add_note notes-list_notes,ok,ok
+13:40:27,notes-add_note notes-list_notes,ok,ok
+13:40:37,notes-add_note notes-list_notes,ok,ok
+13:40:48,notes-add_note notes-list_notes,ok,ok
+13:40:58,notes-add_note notes-list_notes,ok,ok
+13:41:09,notes-add_note notes-list_notes,ok,ok
+13:41:19,notes-add_note notes-list_notes,ok,ok
+13:41:30,notes-add_note notes-list_notes,ok,ok
+13:41:40,notes-add_note notes-list_notes,ok,ok
+13:41:51,notes-add_note notes-list_notes,ok,ok
+13:42:01,notes-add_note notes-list_notes,ok,ok
+13:42:12,notes-add_note notes-list_notes,ok,ok
+13:42:22,notes-add_note notes-list_notes,ok,ok
+13:42:34,notes-add_note notes-list_notes,ok,ok
+13:42:44,notes-add_note notes-list_notes,ok,ok
+13:42:55,notes-add_note notes-list_notes,ok,ok
+13:43:05,notes-add_note notes-list_notes,ok,ok
+13:43:15,notes-add_note notes-list_notes,ok,ok
+13:43:26,notes-add_note notes-list_notes,ok,ok
+13:43:36,notes-add_note notes-list_notes,ok,ok
+13:43:47,notes-add_note notes-list_notes,ok,ok
+13:43:57,notes-add_note notes-list_notes,ok,ok
+13:44:08,notes-add_note notes-list_notes,ok,ok
+13:44:18,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:44:29,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:44:39,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:44:49,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:45:00,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:45:10,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:45:20,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:45:31,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:45:41,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:45:51,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:46:02,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:46:12,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:46:22,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:46:33,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:46:44,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:46:54,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:47:04,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:47:15,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:47:25,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:47:36,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:47:46,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:47:56,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:48:07,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:48:17,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:48:27,(no tools),"error: [{""text"": ""Error: Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool."", ""type"": ""te","HTTP 403: {""detail"":{""error"":""Tool list_notes is not allowed for server notes. Contact proxy admin to allow this tool.""}}"
+13:48:38,notes-add_note notes-list_notes,ok,ok
+13:48:48,notes-add_note notes-list_notes,ok,ok
+13:48:59,notes-add_note notes-list_notes,ok,ok
+13:49:09,notes-add_note notes-list_notes,ok,ok
+13:49:20,notes-add_note notes-list_notes,ok,ok
+13:49:31,notes-add_note notes-list_notes,ok,ok
+13:49:41,notes-add_note notes-list_notes,ok,ok
+13:49:52,notes-add_note notes-list_notes,ok,ok
+13:50:03,notes-add_note notes-list_notes,ok,ok
+13:50:13,notes-add_note notes-list_notes,ok,ok
+13:50:24,notes-add_note notes-list_notes,ok,ok
+13:50:34,notes-add_note notes-list_notes,ok,ok
+13:50:45,notes-add_note notes-list_notes,ok,ok
+13:50:55,notes-add_note notes-list_notes,ok,ok
+13:51:06,notes-add_note notes-list_notes,ok,ok
+13:51:16,notes-add_note notes-list_notes,ok,ok
+13:51:27,notes-add_note notes-list_notes,ok,ok
+13:51:37,notes-add_note notes-list_notes,ok,ok
+13:51:47,notes-add_note notes-list_notes,ok,ok
+13:51:58,notes-add_note notes-list_notes,ok,ok
+13:52:08,notes-add_note notes-list_notes,ok,ok
+13:52:19,notes-add_note notes-list_notes,ok,ok
+13:52:30,notes-add_note notes-list_notes,ok,ok

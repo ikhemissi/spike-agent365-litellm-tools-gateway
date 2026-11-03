@@ -1,0 +1,78 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: spike-agent365-litellm-tools-gateway
+
+# One Terraform root per layer (infra/<layer>/), provisioned in this order; layers pass values through the azd
+# environment. Add the spike's own layers after these.
+infra:
+  provider: terraform
+  layers:
+    - name: azure-platform
+      path: infra/azure-platform
+    - name: foundry-model
+      path: infra/foundry-model
+      dependsOn: [azure-platform]
+      hooks:
+        preprovision:
+          posix:
+            shell: sh
+            run: bash ./hooks/preprovision.sh
+    - name: postgres
+      path: infra/postgres
+      dependsOn: [azure-platform]
+    - name: litellm-gateway
+      path: infra/litellm-gateway
+      dependsOn: [azure-platform, foundry-model, postgres]
+      hooks:
+        postprovision:
+          posix:
+            shell: sh
+            run: bash ./hooks/postprovision.sh
+    # The spike's own layer: the notes MCP server (experiment 01).
+    - name: notes-mcp
+      path: infra/notes-mcp
+      dependsOn: [azure-platform]
+    # The chat UI (experiment 02): needs the gateway's URL and the team key created by src/01_configure_gateway.py.
+    - name: ui
+      path: infra/ui
+      dependsOn: [azure-platform, foundry-model, litellm-gateway]
+    # LiteLLM's Agent 365 guardrail (experiment 06): the gateway's app registration for the On-Behalf-Of exchange.
+    - name: guardrail
+      path: infra/guardrail
+      dependsOn: [azure-platform, ui]
+
+services:
+  notes-mcp:
+    project: ./services/notes-mcp
+    language: python
+    host: containerapp
+    docker:
+      path: ./Dockerfile
+      # Images are built in the platform's registry: no local Docker needed to deploy.
+      remoteBuild: true
+  ui:
+    project: ./services/ui
+    language: ts
+    host: containerapp
+    docker:
+      path: ./Dockerfile
+      remoteBuild: true
+
+hooks:
+  preprovision:
+    posix:
+      shell: sh
+      run: bash ./infra/azure-platform/hooks/preprovision.sh
+      interactive: false
+      continueOnError: false
+  postdeploy:
+    posix:
+      shell: sh
+      run: bash ./scripts/postdeploy.sh
+      interactive: false
+      continueOnError: false
+  predown:
+    posix:
+      shell: sh
+      run: bash ./infra/azure-platform/hooks/predown.sh
+      interactive: false
+      continueOnError: false
