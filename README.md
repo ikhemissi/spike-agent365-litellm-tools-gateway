@@ -1,8 +1,23 @@
+<div align="center">
+
 # Governing LiteLLM MCP servers with Agent 365
+
+**What Agent 365 governs on a LiteLLM gateway, measured: which calls a block stops, how fast, and at what granularity.**
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Spike: done](https://img.shields.io/badge/spike-done-2e7d32?style=flat-square)](docs/FINDINGS.md)
+[![IaC: Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4?style=flat-square&logo=terraform)](infra)
+[![Gateway: LiteLLM](https://img.shields.io/badge/gateway-LiteLLM-555555?style=flat-square)](infra)
+
+[**Key findings**](#key-findings) · [**The setup**](#the-setup) · [**Documents**](#documents) · [**Environment**](#environment)
+
+</div>
 
 **Question:** When a LiteLLM gateway is connected to the Agent 365 tools gateway, what is governed: which calls a block stops and how fast, at what granularity, how new or changed MCP servers are noticed, with which identity, which controls we have in Agent 365, and with which audit records?
 
 **Time box:** 2 days (extended for 05–07) · **Status:** done — see [the findings](docs/FINDINGS.md) · **Variant:** the same question with Azure API Management, in [spike-agent365-apim-tools-gateway](https://github.com/ikhemissi/spike-agent365-apim-tools-gateway)
+
+> As of November 2026, connecting gateways to Agent 365 in the Microsoft 365 admin center is in preview ([Manage Tools Gateway](https://learn.microsoft.com/microsoft-agent-365/admin/manage-tools-gateway)).
 
 ## The setup
 
